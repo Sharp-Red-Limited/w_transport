@@ -109,3 +109,7 @@ Check out the dart_dev readme for more information.
 
 > **To run integration tests, you'll need two JS dependencies for a SockJS
 > server. Run `npm install` to download them.**
+
+### Patched
+
+This fork has been patched to fix the issue caused by <https://github.blog/2021-09-01-improving-git-protocol-security-github> specifically the deprecation of using `git://` as a uri for pubspec dependencies
